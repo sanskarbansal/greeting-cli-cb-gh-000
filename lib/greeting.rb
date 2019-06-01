@@ -4,5 +4,5 @@ def greeting(name)
 end
 
 puts "Hi! I'm HAL, what's your name?"
-name = gets
-greeting(name)
+n = gets
+greeting(n)
