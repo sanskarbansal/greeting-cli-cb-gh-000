@@ -1,8 +1,5 @@
 # code the #greeting method here!
-def greeting(name)
+def greeting
+  name = gets.strip
   puts "Hello #{name.strip}. It's nice to meet you."
 end
-
-puts "Hi! I'm HAL, what's your name?"
-n = gets
-greeting(n)
